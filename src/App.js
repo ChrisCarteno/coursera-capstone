@@ -1,19 +1,18 @@
 import './App.css';
 import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
-}
-
 function Restaurant() {
   return (
     <div>
       <header>
         <h1>Restaurant Name</h1>
+        <nav>    
+          <ul>
+            <li><a href="/home">Homepage</a></li>        
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/blog">Blog</a></li>  
+          </ul>
+        </nav>
       </header>
       <img src="restaurant-image.jpg" alt="Restaurant" />
       <section>
@@ -37,5 +36,3 @@ function Restaurant() {
 }
 
 export default Restaurant;
-
-export default App;
