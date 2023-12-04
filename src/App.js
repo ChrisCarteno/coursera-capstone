@@ -3,9 +3,9 @@ import React from 'react';
 
 function Restaurant() {
   return (
-    <div>
+    <>
       <header>
-        <h1>Restaurant Name</h1>
+        <h1>Little Lemon</h1>
         <nav>    
           <ul>
             <li><a href="/home">Homepage</a></li>        
@@ -31,7 +31,7 @@ function Restaurant() {
           <li>Review 3</li>
         </ul>
       </section>
-    </div>
+    </>
   );
 }
 
